@@ -75,7 +75,7 @@ double* get_b_for_sqrts_case(int variant) {
         b[1] = 0.09;
         b[2] = -0.05;
         b[3] = 0.27;
-    } else if (variant == VARIANT_3) {
+    } else if (variant == VARIANT_16) {
         b[0] = 4.5;
         b[1] = 0.7;
         b[2] = 0.9;
