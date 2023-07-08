@@ -110,14 +110,14 @@ coefs_cols = [
 for n in [4, 8, 16]:
     points = sample(n)
     print(f'n = {n}, alpha_0 = {alpha(0, n, points):.3f}')
-    col_size = 28
+    col_size = 5
     print_header(coefs_cols, min_col_size=col_size)
     for l in range(1, n+1):
         print_row(
             cols=coefs_cols,
             row=[alpha(l, n, points), beta(l, n, points)],
             min_col_size=col_size,
-            digits=25,
+            digits=3,
         )
     print()
 
